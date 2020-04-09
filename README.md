@@ -100,12 +100,3 @@ You will need the following to run the above:
     note = {commit xxxxxxx}
   }
 ```
-
-### Attributions/Thanks
-- This project could not have happened without the advice (and GPU access) given by [Anish Athalye](http://www.anishathalye.com/). 
-  - The project also borrowed some code from Anish's [Neural Style](https://github.com/anishathalye/neural-style/)
-- Some readme/docs formatting was borrowed from Justin Johnson's [Fast Neural Style](https://github.com/jcjohnson/fast-neural-style)
-- The image of the Stata Center at the very beginning of the README was taken by [Juan Paulo](https://juanpaulo.me/)
-
-### Related Work
-- Michael Ramos ported this network [to use CoreML on iOS](https://medium.com/@rambossa/diy-prisma-fast-style-transfer-app-with-coreml-and-tensorflow-817c3b90dacd)
