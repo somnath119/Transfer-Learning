@@ -14,16 +14,6 @@ It takes 100ms on a 2015 Titan X to style the MIT Stata Center (1024×680) like 
 Our implementation is based off of a combination of Gatys' [A Neural Algorithm of Artistic Style](https://arxiv.org/abs/1508.06576), Johnson's [Perceptual Losses for Real-Time Style Transfer and Super-Resolution](http://cs.stanford.edu/people/jcjohns/eccv16/), and Ulyanov's [Instance Normalization](https://arxiv.org/abs/1607.08022). 
 
 
-## Video Stylization 
-Here we transformed every frame in a video, then combined the results. [Click to go to the full demo on YouTube!](https://www.youtube.com/watch?v=xVJwwWQlQ1o) The style here is Udnie, as above.
-<div align = 'center'>
-     <a href = 'https://www.youtube.com/watch?v=xVJwwWQlQ1o'>
-        <img src = 'examples/results/fox_udnie.gif' alt = 'Stylized fox video. Click to go to YouTube!' width = '800px' height = '400px'>
-     </a>
-</div>
-
-See how to generate these videos [here](#stylizing-video)!
-
 ## Image Stylization
 We added styles from various paintings to a photo of Chicago. Click on thumbnails to see full applied style images.
 <div align='center'>
@@ -88,13 +78,4 @@ You will need the following to run the above:
   - All the required NVIDIA software to run TF on a GPU (cuda, etc)
 - ffmpeg 3.1.3 if you want to stylize video
 
-### Citation
-```
-  @misc{engstrom2016faststyletransfer,
-    author = {Logan Engstrom},
-    title = {Fast Style Transfer},
-    year = {2016},
-    howpublished = {\url{https://github.com/lengstrom/fast-style-transfer/}},
-    note = {commit xxxxxxx}
-  }
-```
+
